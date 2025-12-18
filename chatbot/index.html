@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple AI Chatbot</title>
+  <style>
+    body { font-family: Arial; background: #f4f4f4; }
+    #chatbox { width: 400px; margin: 50px auto; background: white; padding: 10px; }
+    #messages { height: 300px; overflow-y: auto; border: 1px solid #ccc; padding: 5px; }
+    input { width: 80%; padding: 5px; }
+    button { padding: 5px; }
+  </style>
+</head>
+<body>
+
+<div id="chatbox">
+  <h3>AI Chatbot</h3>
+  <div id="messages"></div>
+  <input id="userInput" placeholder="Type your message..." />
+  <button onclick="sendMessage()">Send</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
